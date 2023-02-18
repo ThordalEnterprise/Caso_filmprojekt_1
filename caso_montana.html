@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="icon" href="icon.png">
+<link rel="mask-icon" href="icon.png">
+<title>CASO MONTANA</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: 'Bodoni'; }
+.mySlides {display: none}
+
+
+
+/* general styling */
+:root {
+  --smaller: .75;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: 'Bodoni';
+}
+
+.container {
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-weight: normal;
+  letter-spacing: .125rem;
+  text-transform: uppercase;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+li span {
+  display: block;
+  font-size: 4.5rem;
+}
+
+.emoji {
+  display: none;
+  padding: 1rem;
+}
+
+.emoji span {
+  font-size: 4rem;
+  padding: 0 .5rem;
+}
+
+@media all and (max-width: 768px) {
+  h1 {
+    font-size: calc(1.5rem * var(--smaller));
+  }
+  
+  li {
+    font-size: calc(1.125rem * var(--smaller));
+  }
+  
+  li span {
+    font-size: calc(3.375rem * var(--smaller));
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="caso_montana.html" class="w3-bar-item w3-button w3-padding-large"> <img style="width: 20px; margin-bottom: 5px;" src="icon.png"></a>
+    <a href="#interview" class="w3-bar-item w3-button w3-padding-large w3-hide-small">INTRO</a>
+    <a href="cinema_index.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CINEMA</a>
+    <a href="interviews_index.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">INTERVIEWS</a>
+    <a href="bts_index.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BTS</a>
+
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">INFORMATION <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="credits_index.html" class="w3-bar-item w3-button">CREDITS</a>
+        <a href="press_index.html" class="w3-bar-item w3-button">PRESSE</a>
+        <a href="EXTRA_index.html" class="w3-bar-item w3-button">EXTRA</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <video src="https://scontent.cdninstagram.com/v/t50.2886-16/231490351_366090351688278_1104420390954112698_n.mp4?efg=eyJ2ZW5jb2RlX3RhZyI6InZ0c192b2RfdXJsZ2VuLjU3Ni5mZWVkLmRlZmF1bHQiLCJxZV9ncm91cHMiOiJbXCJpZ193ZWJfZGVsaXZlcnlfdnRzX290ZlwiXSJ9&_nc_ht=scontent.cdninstagram.com&_nc_cat=106&_nc_ohc=n1labc_V9pEAX9cGAbh&edm=AJBgZrYBAAAA&vs=17920032385731153_1171804605&_nc_vs=HBksFQAYJEdDOUR6QTFXT2w0TjlVd0JBTHFXaEgxX3NGTVBia1lMQUFBRhUAAsgBABUAGCRHT1FieXczbE13b2JPUkVEQUdsTWphUUttUzV6YmtZTEFBQUYVAgLIAQAoABgAGwAVAAAmtuCJgOKGxj8VAigCQzMsF0AwTMzMzMzNGBJkYXNoX2Jhc2VsaW5lXzFfdjERAHXqBwA%3D&ccb=7-5&oe=63568B1D&oh=00_AT-Sq8Z2MUwfZqUAyZHnovs0P3hSjDcqiPE8kjSuecWcsQ&_nc_sid=78c662&dl=1"></video>
+
+
+  </div>
+  <!-- The Tour Section -->
+  <div class="w3-black" id="intro">
+    <h2 class="w3-wide">TRAILER</h2>
+      <video width="100%" height="500"  autoplay muted>
+        <source src="intro_video.mp4" type="video/mp4" >
+      </video>
+
+    </div>
+  </div>
+
+
+  <!-- The interview Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="interview">
+    <h2 class="w3-wide">INTRO</h2>
+    <p class="w3-opacity"><i>We love music</i></p>
+    <p class="w3-justify">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  
+      <video width="100%" height="500" controls>
+        <source src="intro_video.mp4" type="video/mp4" >
+      </video>
+      <p class="w3-justify">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    
+    </div>
+
+  <!-- The EMPTY Section -->
+  <div class="w3-black" style="background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-origin: content-box; background-image: url('cinema_background.jpg') " id="EMPTY">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center"><a href="cinema_index.html">CINEMA</a></h2>
+      <div class="container">
+        <h1 id="headline">Countdown to xxxxx</h1>
+        <div id="countdown">
+          <ul>
+            <li><span id="days"></span>days</li>
+            <li><span id="hours"></span>Hours</li>
+            <li><span id="minutes"></span>Minutes</li>
+            <li><span id="seconds"></span>Seconds</li>
+          </ul>
+        </div>
+        <div id="content" class="emoji">
+          <span>🥳</span>
+          <span>🎉</span>
+          <span>🎂</span>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+
+    </div>
+  </div>
+
+
+   <!-- The INTERVIEWS Section -->
+   <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="INTERVIEWS">
+    <h2 class="w3-wide w3-center"><a href="interviews_index.html">INTERVIEWS</a></h2>
+   </div>
+  </div>
+
+   <!-- The bts Section -->
+  <div class="w3-black" style="background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-origin: content-box; background-image: url('BTS_bakcground.png') " id="BTS">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center"><a href="bts_index.html">BEHIND THE SCENE</a></h2>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+    </div>
+  </div>
+
+
+   <!-- The credits Section -->
+   <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="CREDITS">
+    <h2 class="w3-wide w3-center"><a href="credits_index.html">CREDITS</a></h2>
+   </div>
+  </div>
+
+   <!-- The MERCHANDISE Section -->
+   <div class="w3-black" id="BTS">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center"><a href="press_index.html">PRESSE</a></h2>
+  <!-- The Contact Section -->
+  <div  class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Randers, DK<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+    </div>
+  </div>
+
+     <!-- The MERCHANDISE Section -->
+     <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="CREDITS">
+      <h2 class="w3-wide w3-center"><a href="EXTRA_index.html">EXTRA</a></h2>
+     </div>
+    </div>
+  
+
+
+
+
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">ThordalEnterprise</a></p>
+</footer>
+
+<script>
+
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+
+</script>
+
+
+  <script>
+    (function () {
+  const second = 1000,
+        minute = second * 60,
+        hour = minute * 60,
+        day = hour * 24;
+
+  //I'm adding this section so I don't have to keep updating this pen every year :-)
+  //remove this if you don't need it
+  let today = new Date(),
+      dd = String(today.getDate()).padStart(2, "0"),
+      mm = String(today.getMonth() + 1).padStart(2, "0"),
+      yyyy = today.getFullYear(),
+      nextYear = yyyy + 1,
+      dayMonth = "09/30/",
+      birthday = dayMonth + yyyy;
+  
+  today = mm + "/" + dd + "/" + yyyy;
+  if (today > birthday) {
+    birthday = dayMonth + nextYear;
+  }
+  //end
+  
+  const countDown = new Date(birthday).getTime(),
+      x = setInterval(function() {    
+
+        const now = new Date().getTime(),
+              distance = countDown - now;
+
+        document.getElementById("days").innerText = Math.floor(distance / (day)),
+          document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+          document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+          document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+
+        //do something later when date is reached
+        if (distance < 0) {
+          document.getElementById("headline").innerText = "It's my birthday!";
+          document.getElementById("countdown").style.display = "none";
+          document.getElementById("content").style.display = "block";
+          clearInterval(x);
+        }
+        //seconds
+      }, 0)
+  }());
+  </script>
+
+
+</body>
+</html>
